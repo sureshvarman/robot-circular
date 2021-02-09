@@ -14,7 +14,7 @@ var isBoundedCircle = function(commands) {
         let dir = 0; // 0 - N, 1 - E, 2 - S, 3 - W
         let x = 0, y = 0, 
         
-        // this was the condition missed, assuming the state continues from the previous command
+        // this was the condition missed, misunderstood as the state continues from the previous command
         while (iteration < 4) { 
             switch(commands[i]) {
                 case 'G':
